@@ -20,7 +20,7 @@ menuHamb.addEventListener('click', () => {
 });
 
 //abrir fotos
-console,log('entro');
+console.log('entro');
 let fotos = document.querySelectorAll('.fotos__cont-img');
 // let fondoOscuro = document.querySelector('.fondo-oscuro');
 for (let i = 0; i < fotos.length; i++) {
@@ -28,9 +28,9 @@ for (let i = 0; i < fotos.length; i++) {
     
     foto.addEventListener('click', () => {
         // let src = foto.children[0].src.split('assets/')[1];
-        console,log('click');
+        console.log('click');
         let src = foto.children[0].src;
-        console,log(src);
+        console.log(src);
         
         let div = document.createElement('div');
         div.classList.add('fondo-oscuro');
